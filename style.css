@@ -127,6 +127,7 @@ button {
     flex-wrap: wrap;
     background-color:   #E5E7EB;
     
+    
 }
 
 .quotes {
@@ -136,18 +137,67 @@ button {
     padding-left: 25%;
     padding-top: 5%;
     font-size: 35px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .squote {
     display: flex;
     justify-content: flex-end;
-    padding: 5%;
-    padding-left: 65%;
+    padding-bottom: 5%;
+    padding-left: 60%;
     font-size: 24px;
     font-weight: bold;
+    color: #1F2937;
 
 }
 /* quote */
 
 /* random info - quote */
 
+/* footer */
+
+.footer {
+    display: flex;
+    background-color: white;
+    justify-content: center; 
+    color: white;
+}
+
+.contaier {
+    background-color: #3882f6;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    width: 1200px;
+}
+
+
+.fcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fbutton {
+    border: solid 1px white;
+}
+
+.SU {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ufooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1F2937;
+    height: 55px;
+    color: white;
+}
+
+/* footer */
