@@ -3,8 +3,13 @@ body {
 }
 
 .container {
-    background-color: #1F2937;
+    background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    height: 200px;
+    width: 200px;
 }
 
 /* header */
@@ -22,6 +27,7 @@ body {
     justify-content: space-around;
     color: #F9FAF8;
     font-size: 24px;
+    background-color: #1F2937;;
 }
 
 li {
@@ -39,6 +45,7 @@ li {
     font-size: 28px;
     padding: 50px;
     justify-content: space-evenly;
+    background-color: #1F2937;;
 }
 
 .mheader {
@@ -75,16 +82,72 @@ button {
 }
 
 
-img {
-    height: 100px;
-    width: 100px;
-}
+
 
 
 
 /* Main text */
 
+/* random info - quote */
+
+.random {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 25px;
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
 .info {
     display: flex;
+    justify-content: center;
     background-color: white;
+    padding: 30px;
+    padding-bottom: 120px;
 }
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 52px   ;
+    text-align: center;
+}
+
+.cajas {
+    border: solid 4px rgb(0, 238, 255);
+    border-radius: 15px;
+}
+
+/* quote */
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:   #E5E7EB;
+    
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 5%;
+    font-size: 35px;
+}
+
+.squote {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5%;
+    padding-left: 65%;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+/* quote */
+
+/* random info - quote */
+
