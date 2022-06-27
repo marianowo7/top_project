@@ -5,6 +5,7 @@ body {
 .container {
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 img {
@@ -198,6 +199,11 @@ button {
     background-color: #1F2937;
     height: 55px;
     color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
 }
 
 /* footer */
